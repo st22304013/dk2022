@@ -1,0 +1,119 @@
+@charset "UTF-8"
+
+html {
+	font-size: 100%;
+}
+
+body {
+	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+	line-height: 1.7;
+	color: #c0c0c0;
+	background-color: #ffffff;
+	margin: 0;
+	text-align: center;			/* textを中央に整列 */
+}
+
+img {
+	max-width: 100%;
+}
+
+/*	header
+--------------------*/
+.logo {
+	width: 100px;
+	height: 100px;
+	margin-top: 0px;
+}
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-nav {
+	display: flex;				/*liを横並びにしたいから親のここで指定 */
+	font-size: 1.5rem;
+	font-family: 'Philosopher', serif;
+	margin: 25px;
+}
+
+.main-nav li{
+	list-style: none;			/* ・を消す */
+	justify-content: space-between;
+}
+
+.main-nav li a {
+	padding: 1rem;
+	color: #a0a0a0;				/* ナビゲーション内の文字色 */
+	text-decoration: none;		/* アンダーバー消す	*/
+}
+
+/* boby
+------------------------------*/
+
+.TOPPAGE{
+	font-size: 2.5rem;
+	font-family: 'Philosopher', serif;
+	padding: 400px;
+}
+
+.bgbg {
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+
+#home {
+	background-image: url(../images/dk7.png);
+	min-height: 100vh;
+}
+
+.page-title {
+	font-size: 4rem;
+	font-family: 'Philosopher', serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 5rem;
+	color: #c0c0c0;
+	margin: 400px 250px;
+}
+
+/*フッター*/
+
+#sns_footer_1 {
+	position: relative;	/*absoluteだと何故か出来ない*/
+	width: 100%;		/*アイコンの位置（横）*/
+	height: 50px;		/*多分下との幅*/
+	left: 0;			/*leftからtopまでいらん↓*/
+	right: 0;
+	margin: 0;
+	top: 0;
+	display: flex;		/*いらないかも*/
+	justify-content: center;/*いらないかも*/
+}
+
+#sns_footer_2 {
+	position: absolute;
+	top: 0px;
+	width: 70%;
+	display: flex;
+	justify-content: center;/*多分いらん*/
+
+}
+footer {
+	background: #000000;	/*フッターの色*/
+	text-align: center;/*多分中央ぞろえ*/
+	padding: 30px 0;	/*フッターのサイズ？*/
+
+
+}
+footer p {
+	color: #fff;
+	font-size: 0.575rem;
+
+}
+footer li{
+	text-decoration: none;/*多分いらん*/
+	list-style:none;	/*黒点消す*/
+	padding: 0 10px 0;	/*アイコンとアイコンの幅*/
+}
