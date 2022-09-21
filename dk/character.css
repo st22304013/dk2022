@@ -188,7 +188,7 @@ footer li{
 
 .character_1 {
 	background-image: url("images\haikei3.jpeg");	/*背景画像*/
-
+	background-attachment: fixed;
 	background-size: 100%;
 	display: flex;		/*横並び*/
 }
