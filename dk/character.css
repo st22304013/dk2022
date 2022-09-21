@@ -1,83 +1,53 @@
-@charset "UTF-8"
+@charset "UTF-8";   /*日本語に設定 */
+
 html {
-	font-size: 100%;
+  font-size: 100%;
+  
 }
 
 body {
-	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
-	line-height: 1.7;
-	color: #c0c0c0;
-	background-color: #000000;
-	margin: 0;
-	text-align: center;			/* textを中央に整列 */
-    width: 100%;
-    padding: 0px;
+
+  margin: 0px;
+  /* overflow: hidden; Hide scrollbars */
+
+
 }
 
-img {
-	max-width: 100%;
-}
-
-/*	header
---------------------*/
-.logo {
-	width: 100px;
-	height: 100px;
-	margin-top: 0px;
-}
-
-.page-header {
-	display: flex;
-	justify-content: space-between;
-}
-.page-title {
-    color: black;
-}
 
 .main-nav {
-	display: flex;				/*liを横並びにしたいから親のここで指定 */
-	font-size: 1.5rem;
-	font-family: 'Philosopher', serif;
-	margin: 25px;
+  
+  display: flex; /*　 文字の並びを横向きに設定　*/
+  font-size: 1.25rem;
+  text-transform: uppercase; /*  大文字にする　*/
+  list-style: none; /*  文字の線をなしにしてる。  */
+  justify-content: center;  /*　行の書式を中心に寄せてる。 */
+  position: fixed;
+
+  padding: 10px;
+
 }
 
 .main-nav li{
-	list-style: none;			/* ・を消す */
-	justify-content: space-between;
+  text-decoration: none;
+  /*   この設定でNAVバーの中身の位置を決めてる。*/  
+  margin-left: 25px;
+  margin-right: 25px;
+ /**/
+}
+.main-nav :hover { /*　HOVERした時の設定。　NAVバーだけ。*/
+  color: yellow;
+
 }
 
-.main-nav li a {
-	padding: 1rem;
-	color: #a0a0a0;				/* ナビゲーション内の文字色 */
-	text-decoration: none;		/* アンダーバー消す	*/
-}
+.main-nav a {   /*　NAVの a の書式設定。 */
 
-.bgbg {
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-}
-
-.home {
-	background-image: url(../images/haikei3.jpeg);
-	min-height: 100vh;
-    max-width: 100%;
-}
-
-.page-title {
-	font-size: 4rem;
-	font-family: 'Philosopher', serif;
-	text-transform: uppercase;
-	font-weight: bold;
-	letter-spacing: 5rem;
-	color: #c0c0c0;
-	margin: 400px 250px;
+  color: white;
+  text-decoration: none; 
 }
 
 .box{   /*　ボックスの設定。*/
   width: 100%;
-
-
+  
   background-color: black;
   text-decoration: none;
 
@@ -144,11 +114,24 @@ img {
 #sns_footer_2 {
 	position: absolute;
 	top: 0px;
+  left: 150px;
 	width: 70%;
 	display: flex;
-	justify-content: center;/*多分いらん*/
+	justify-content: center;/*アイコンの中央揃え*/
+ /* text-align: center; /*start;*/
+  /*border: solid;*/
 
 }
+/*snsアイコンが上に動く*/
+.sns_mo li a {
+  display: inline-block;
+  transition: 0.2s;
+  }
+/*同じ*/
+.sns_mo li a:hover {
+  transform: translateY(-15px);
+}
+
 footer {
 	background: #000000;	/*フッターの色*/
 	text-align: center;/*多分中央ぞろえ*/
@@ -165,9 +148,34 @@ footer li{
 	text-decoration: none;/*多分いらん*/
 	list-style:none;	/*黒点消す*/
 	padding: 0 10px 0;	/*アイコンとアイコンの幅*/
+  
 }
 
+/*NEWS*/
 
+#news_div {
+	position: relative;
+	background: url("image/newshai.jpg")repeat;
+	background-size: 100%;
+}
+
+#news_p {
+	margin: 0px;		/*余白が勝手につくのは最初に0を指定していないから*/
+	padding: 0px;		/*上と同じ*/
+	font-family: 'Philosopher', serif;
+	color: #fff;
+	font-size: 50px;
+	padding: 0px 550px 0px;
+}
+
+#a_news {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Philosopher', serif;
+	color: #fff;
+	font-size: 50px;
+	padding: 0px 100px 0px;
+}
 /*キャラクター*/
 
 /*ロゴ*/
@@ -177,8 +185,9 @@ footer li{
 	
 }
 
+
 .character_1 {
-	background-image: url("images/haikei3.jpeg");	/*背景画像*/
+	background-image: url("image/haikei3.jpeg");	/*背景画像*/
 	background-attachment: fixed;
 	background-size: 100%;
 	display: flex;		/*横並び*/
@@ -198,12 +207,16 @@ footer li{
     padding:10px;
     text-align:center;
 }
-.wrapper_3 .content_3 .heading_3{
+.wrapper_3 .content_3{
 	color: #fff;
     margin:0px 0px 0px 0px;
     font-size: 30px;
     font-weight: normal;
     text-align: center;
+}
+
+.heading_3{
+  color: white;
 }
 
 
