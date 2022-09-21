@@ -1,5 +1,4 @@
 @charset "UTF-8"
-
 html {
 	font-size: 100%;
 }
@@ -11,6 +10,8 @@ body {
 	background-color: #000000;
 	margin: 0;
 	text-align: center;			/* textを中央に整列 */
+    width: 100%;
+    padding: 0px;
 }
 
 img {
@@ -28,6 +29,9 @@ img {
 .page-header {
 	display: flex;
 	justify-content: space-between;
+}
+.page-title {
+    color: black;
 }
 
 .main-nav {
@@ -54,9 +58,10 @@ img {
 	background-repeat: no-repeat;
 }
 
-#home {
-	background-image: url(../images/dk21.png);
+.home {
+	background-image: url(../images/haikei3.jpeg);
 	min-height: 100vh;
+    max-width: 100%;
 }
 
 .page-title {
@@ -71,7 +76,8 @@ img {
 
 .box{   /*　ボックスの設定。*/
   width: 100%;
-  
+
+
   background-color: black;
   text-decoration: none;
 
