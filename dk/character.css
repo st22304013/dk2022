@@ -191,7 +191,6 @@ footer li{
 	background-attachment: fixed;
 	background-size: 100%;
 	display: flex;		/*横並び*/
-  background-color:black;
 }
 
 /*見出し*/
