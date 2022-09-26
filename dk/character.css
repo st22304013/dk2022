@@ -151,31 +151,6 @@ footer li{
   
 }
 
-/*NEWS*/
-
-#news_div {
-	position: relative;
-	background: url("image/newshai.jpg")repeat;
-	background-size: 100%;
-}
-
-#news_p {
-	margin: 0px;		/*余白が勝手につくのは最初に0を指定していないから*/
-	padding: 0px;		/*上と同じ*/
-	font-family: 'Philosopher', serif;
-	color: #fff;
-	font-size: 50px;
-	padding: 0px 550px 0px;
-}
-
-#a_news {
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Philosopher', serif;
-	color: #fff;
-	font-size: 50px;
-	padding: 0px 100px 0px;
-}
 /*キャラクター*/
 
 /*ロゴ*/
@@ -264,7 +239,7 @@ footer li{
 }
 
 .heading_3{
-  color: white;
+  color: #aaa;
 }
 
 
