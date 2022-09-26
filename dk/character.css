@@ -192,6 +192,7 @@ footer li{
 	background-size: 100%;
 	display: flex;		/*横並び*/
 }
+
 .character_2 {
   background-image: url("images/blu.jpg");	/*背景画像*/
 	background-attachment: fixed;
