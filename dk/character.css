@@ -350,7 +350,7 @@ footer li{
 	display: flex;
 	justify-content:center;
 	align-items:center;
-	background:#942D2F;
+	/*background:#942D2F;
 	border-radius: 5px;
 	width: 60px;
 	height: 60px;
@@ -359,7 +359,7 @@ footer li{
 	text-transform: uppercase; 
 	text-decoration: none;
 	font-size:0.6rem;
-	transition:all 0.3s;
+	transition:all 0.3s;*/
 }
 
 #page-top a:hover{
