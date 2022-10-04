@@ -178,8 +178,9 @@ body {
     text-align: center;
 }
 
-.heading_3{
-  color: #fff;
+.heading_3{/*見出しのキャラクターの文字*/
+  color: honeydew;
+  font-family: "Impact";
 }
 
 
@@ -280,6 +281,9 @@ body {
     font-weight: normal;
     text-align: center;
 }
-
+.tx {/*テキストの設定*/
+  color: white;
+  font-family: "MS明朝";
+}
 
 
