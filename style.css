@@ -1,4 +1,64 @@
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Philosopher&family=Ubuntu:ital,wght@1,300&display=swap');
+
+
+
+/*===========================================================*/
+/*機能編  4-1-3　プログレスバー＋数字カウントアップ＋画面が開く*/
+/*===========================================================*/
+
+/* Loading背景画面設定　*/
+#splash {
+    /*fixedで全面に固定*/
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 99999;
+	text-align:center;
+	color:#aaa;
+}
+
+/* Loading画像中央配置　*/
+#splash_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    z-index: 999;
+	transform: translate(-50%, -50%);
+	color: #aaa;
+	width: 100%;
+}
+
+/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
+#splash_text svg{
+    height: 2px;
+}
+
+/*割れる画面のアニメーション*/
+.loader_cover {
+    width: 100%;
+    height: 50%;
+    background:#02495b;     /* #017490 */
+    transition: all .2s cubic-bezier(.04, .435, .315, .9);
+    transform: scaleY(1);
+}
+/*上の画面*/
+.loader_cover-up {
+    transform-origin: center top;
+}
+
+/*下の画面*/
+.loader_cover-down {
+    position: absolute;
+    bottom: 0;
+    transform-origin: center bottom;
+}
+/*クラス名がついたらY軸方向に0*/
+.coveranime {
+    transform: scaleY(0);
+}
+
+/*==========================================================*/
 
 * {
     margin: 0;
@@ -7,12 +67,6 @@
     font-family: 'Philosopher';
     text-align: center;
     color: #aaa;
-}
-
-h1
-{
-    
-
 }
 
 .showcase
@@ -105,7 +159,6 @@ h1
     position: relative;
     z-index: 10;
     margin: auto;
-
 }
 
 .text h2 {
