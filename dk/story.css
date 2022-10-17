@@ -1,6 +1,6 @@
 @charset "UTF-8"
 
-html {
+;html {
 	font-size: 100%;
 }
 
@@ -129,8 +129,9 @@ footer li{
     position: relative;
     padding: 0.5em 1.5em;
     border-top: solid 2.5px #c0c0c0;
-    border-bottom: solid 2.5px ;#c0c0c0;
+    border-bottom: solid 2.5px;
 }
+
 .box:before, .box:after{
     content: '';
     position: absolute;
@@ -146,3 +147,12 @@ footer li{
     margin: 0; 
     padding: 0;
 }
+/*h2 {
+
+	margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2.5px #c0c0c0;
+    border-bottom: solid 2.5px ;#c0c0c0;
+}
+*/
