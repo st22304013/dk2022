@@ -97,93 +97,8 @@ body {
   text-align: center;
 }
 
-/*フッター*/
 
-#sns_footer_1 {
-	position: relative;	/*absoluteだと何故か出来ない*/
-	width: 100%;		/*アイコンの位置（横）*/
-	height: 50px;		/*多分下との幅*/
-	left: 0;			/*leftからtopまでいらん↓*/
-	right: 0;
-	margin: 0;
-	top: 0;
-	display: flex;		/*いらないかも*/
-	justify-content: center;/*いらないかも*/
-}
-
-#sns_footer_2 {
-	position: absolute;
-	top: 0px;
-  left: 150px;
-	width: 70%;
-	display: flex;
-	justify-content: center;/*アイコンの中央揃え*/
- /* text-align: center; /*start;*/
-  /*border: solid;*/
-
-}
-/*snsアイコンが上に動く*/
-.sns_mo li a {
-  display: inline-block;
-  transition: 0.2s;
-  }
-/*同じ*/
-.sns_mo li a:hover {
-  transform: translateY(-15px);
-}
-
-footer {
-	background: #000000;	/*フッターの色*/
-	text-align: center;/*多分中央ぞろえ*/
-	padding: 30px 0;	/*フッターのサイズ？*/
-
-
-}
-footer p {
-	color: #fff;
-	font-size: 0.575rem;
-
-}
-footer li{
-	text-decoration: none;/*多分いらん*/
-	list-style:none;	/*黒点消す*/
-	padding: 0 10px 0;	/*アイコンとアイコンの幅*/
-  
-}
-
-/*NEWS*/
-
-#news_div {
-	position: relative;
-	background: url("image/newshai.jpg")repeat;
-	background-size: 100%;
-}
-
-#news_p {
-	margin: 0px;		/*余白が勝手につくのは最初に0を指定していないから*/
-	padding: 0px;		/*上と同じ*/
-	font-family: 'Philosopher', serif;
-	color: #fff;
-	font-size: 50px;
-	padding: 0px 550px 0px;
-}
-
-#a_news {
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Philosopher', serif;
-	color: #fff;
-	font-size: 50px;
-	padding: 0px 100px 0px;
-}
 /*キャラクター*/
-
-/*ロゴ*/
-.logo_1 {
-	margin: 0;
-	padding: 0;
-	
-}
 
 
 .character_1 {
@@ -263,8 +178,9 @@ footer li{
     text-align: center;
 }
 
-.heading_3{
-  color: white;
+.heading_3{/*見出しのキャラクターの文字*/
+  color: honeydew;
+  font-family: "Impact";
 }
 
 
@@ -277,7 +193,7 @@ footer li{
 .wrapper .container{
     max-width:1000px;
     margin:0px auto;
-    padding:150px 0px;
+    padding:150px 0px;/*縦サイズ*/
 }
 /* content */
 @media (min-width: 992px) {
@@ -330,7 +246,7 @@ footer li{
 .wrapper_2 .container_2{
     max-width:1000px;
     margin:0px auto;
-    padding: 170px 0px;
+    padding:150px 0px;
 }
 /* content */
 @media (min-width: 992px) {
@@ -365,4 +281,9 @@ footer li{
     font-weight: normal;
     text-align: center;
 }
+.tx {/*テキストの設定*/
+  color: white;
+  font-family: "MS明朝";
+}
+
 
