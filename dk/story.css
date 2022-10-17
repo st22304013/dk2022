@@ -131,7 +131,6 @@ footer li{
     padding: 0.5em 1.5em;
     border-top: solid 2.5px #c0c0c0;
     border-bottom: solid 2.5px;
-	background-color: #000000;
 }
 
 .box:before, .box:after{
@@ -159,7 +158,7 @@ footer li{
 }
 
 .background3 {
-	background-image: url(../images/wallpaperjker.jpg);
+	background-image: url(../images/wallpaperjoker.jpg);
 }
 
 .background4 {
