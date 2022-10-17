@@ -7,8 +7,8 @@ html {
 body {
 	font-family: "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
 	line-height: 1.7;
-	color: #c0c0c0;
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: #000000;
 	margin: 0;
 	text-align: center;			/* textを中央に整列 */
 }
@@ -116,4 +116,33 @@ footer li{
 	text-decoration: none;/*多分いらん*/
 	list-style:none;	/*黒点消す*/
 	padding: 0 10px 0;	/*アイコンとアイコンの幅*/
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 4%;		/* なくてもいいかも	*/
+}
+
+.box{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2.5px #c0c0c0;
+    border-bottom: solid 2.5px ;#c0c0c0;
+}
+.box:before, .box:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: #c0c0c0;
+}
+.box:before {left: 10px;}
+.box:after {right: 10px;}
+.box p {
+    margin: 0; 
+    padding: 0;
 }
