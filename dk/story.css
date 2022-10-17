@@ -131,7 +131,6 @@ footer li{
     padding: 0.5em 1.5em;
     border-top: solid 2.5px #c0c0c0;
     border-bottom: solid 2.5px;
-	background-color: #000000;
 }
 
 .box:before, .box:after{
@@ -148,20 +147,4 @@ footer li{
 .box p {
     margin: 0; 
     padding: 0;
-}
-
-.background {
-	background-image: url(../images/dk20.png);
-}
-
-.background2 {
-	background-image: url(../images/haikei3.jpeg);
-}
-
-.background3 {
-	background-image: url(../images/wallpaperjker.jpg);
-}
-
-.background4 {
-	background-image: url(../images/Twoface.jpg);
 }
