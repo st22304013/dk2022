@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Philosopher&family=Ubuntu:ital,wght@1,300&display=swap');
-/* レイアウトのためのCSS */
+/* レイアウト�?�ためのCSS */
 
 body{
     background:#f0f0f0;
-    font-family:'Baskervville', serif,"游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+    font-family:'Baskervville', serif,"游ゴシ�?ク�?", YuGothic, "游ゴシ�?ク Medium", "Yu Gothic Medium", "游ゴシ�?ク", "Yu Gothic", "メイリオ", sans-serif;
 	color: #333;
 	font-size:1rem;
 	line-height:1.85;
@@ -48,7 +48,7 @@ a:active{
 
 .heading-block h1,h2{
     font-family: 'Montserrat', cursive;
-    font-weight: 300;
+    font-weight: 550;
     font-size:4vw;
     line-height: 2.5;
     letter-spacing: 0.25em;
@@ -60,7 +60,7 @@ a:active{
     letter-spacing: 0.75em;
 }
 
-/*横幅が768px以下になった際の指定*/
+/*横�?�?768px以下になった際の�?�?*/
 @media only screen and (max-width:768px) {
 .heading-block h1, h2{
     font-size:4em;
@@ -71,11 +71,6 @@ a:active{
     letter-spacing: 0.2em;
     }
 }
-
-#box4 h2{
-    color: #7735ce;
-}
-
 
 /* MENU */
 .showcase {
@@ -127,44 +122,6 @@ a:active{
 }
 
 
-
-/* profile-area*/
-
-.profile-area{
-    width:100%;
-    max-width: 300px;
-    background:rgba(255,255,255,0.8);
-    padding:40px;
-    margin: 0 0 0 40px;
-    text-align: left;
-    letter-spacing: 0.03em;
-}
-
-@media screen and (max-width:768px) { 
-.profile-area{
-     margin:0;
-    } 
-}
-
-
-.profile-area h2{
-    font-size: 0.8rem;
-    margin:0 0 25px 0;
-    line-height: 1.8;
-    color: #333;
-    font-family: 'Baskervville', serif;
-    text-align: center;
-}
-
-.profile-area h2 span{
-    font-size: 0.9rem;
-     display: block;
-    text-transform: uppercase;
-}
-
-.profile-area p{
-    margin:0 0 25px 0;
-}
 
 
 /* form */
