@@ -13,6 +13,10 @@ body {
 	text-align: center;			/* textを中央に整列 */
 }
 
+a:hover {
+	color: rgb(170, 170, 50);
+  }
+
 img {
 	max-width: 100%;
 }
