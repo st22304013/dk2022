@@ -167,8 +167,14 @@ footer li{
 
 .background5 {
 	background-image: url(../images/sannin.png);
-	padding: 250px;
+	padding: 350px;
 }
+
+.bgbox{
+	background:rgba(0, 0, 0, 0.5);
+	
+}
+
 
 .background5 h1{
     font-family: 'Montserrat', cursive;
@@ -176,14 +182,8 @@ footer li{
     font-size:4vw;
     line-height: 2.5;
     letter-spacing: 0.5em;
-    padding-top: 100px;
-	color: #fff;
-
-}
-
-.background5 h1{
-	background-color: black;
-	opacity: 30%;
+    padding-top: 30px;
+	color: white;
 }
 
 .background5 p{
