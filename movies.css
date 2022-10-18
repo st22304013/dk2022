@@ -1,8 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Philosopher&family=Ubuntu:ital,wght@1,300&display=swap');
 
-
-
 /*===========================================================*/
 /*機能編  4-1-3　プログレスバー＋数字カウントアップ＋画面が開く*/
 /*===========================================================*/
@@ -38,7 +36,7 @@
 .loader_cover {
     width: 100%;
     height: 50%;
-    background:#02495b;     /* #017490 */
+    background:#2f1004;
     transition: all .2s cubic-bezier(.04, .435, .315, .9);
     transform: scaleY(1);
 }
@@ -58,8 +56,6 @@
     transform: scaleY(0);
 }
 
-/*==========================================================*/
-
 * {
     margin: 0;
     padding: 0;
@@ -78,8 +74,9 @@
   padding: 100px;
   display: flex;
   justify-content: space-between;
-  align-items: center;;
+  align-items: center;
   transition: 0.5s;
+  color: #ccc;
 }
 
 .showcase header {
@@ -116,6 +113,7 @@
     text-decoration: none;
     transition: 0.3s;
     padding: 20px;
+    color: #ccc;
 }
 
 .menu li a:hover {
@@ -126,6 +124,7 @@
     text-decoration: none;
     transition: .5s;
     padding: 20px;
+    color: #ccc;
 }
 
 .logo a:hover {
@@ -133,10 +132,7 @@
 }
 
 
-.main {
-    padding: 50px 0;
-    background-color: rgb(20, 31, 24);
-}
+
 
 /*
 ------------------------------*/
@@ -144,20 +140,51 @@
 
 
 .fixed-background {
-	min-height: 100vh;
+	min-height: 95vh;
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 }
  
 .background-1 {
- 	background-image: url(img/dk05.png);
- 	font-family: 'Philosopher', serif;
+ 	background-image: url(img/dk09.jpg);
 	padding: 250px;
 }
 
 .background-color-1 {
 	padding: 250px;
+}
+
+.background-1 h1{
+    font-family: 'Montserrat', cursive;
+    font-weight: 575;
+    font-size:4vw;
+    line-height: 2.5;
+    letter-spacing: 0.75em;
+    padding-top: 100px;
+}
+
+.background-1 p{
+    font-size:1.5vw;
+    letter-spacing: 0.75em;
+}
+
+.main {
+    padding: 25px 0;
+    background-color: rgb(11, 46, 65);
+}
+
+.main h2 {
+    font-family: 'Montserrat', cursive;
+    font-size: 1.5vw;
+    line-height: 2.5;
+    letter-spacing: 0.25em;
+}
+
+.main p {
+    font-size: 1vw;
+    line-height: 2;
+    letter-spacing: 0.25em;
 }
 
 /*==================================================
@@ -195,8 +222,8 @@ slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
     top: 42%;
     cursor: pointer;/*マウスカーソルを指マークに*/
     outline: none;/*クリックをしたら出てくる枠線を消す*/
-    border-top: 2px solid #666;/*矢印の色*/
-    border-right: 2px solid #666;/*矢印の色*/
+    border-top: 2px solid #ccc;/*矢印の色*/
+    border-right: 2px solid #ccc;/*矢印の色*/
     height: 15px;
     width: 15px;
 }
