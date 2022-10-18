@@ -8,26 +8,39 @@
 		<link rel="stylesheet" href="dk/story.css">
 		<link rel="stylesheet" href="dk/footer.css">
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="dk/loding.css" />
+		<link rel="stylesheet" href="dk/up.css">
+		<link rel="stylesheet" href="movies.css" />
+
+		
 	</head>
+
 	<body>
-		<div id="home" class="bgbg">
-		<header class="page-header">
-			<h1><a href="dk.html"><img src="images/dk001.png" alt="dk" class="logo"></a></h1>
-			<nav>
-				<ul class="main-nav">
-					<li><a href="index.html">TOP</a></li>
-					<li><a href="story.html">STORY</a></li>
-					<li><a href="character.html">CHARACTER</a></li>
-					<li><a href="movies.html">MOVIES</a></li>
-					<li><a href="more.html">MORE</a></li>
+		<div id="splash">
+			<div id="splash_text"></div>
+			<!--/splash--></div>
+			<div id="container">
+
+		<section class="showcase">
+			<header>
+			  <h1 class="logo"><a href="index.html">DKG</a></h1>
+			  <nav>
+				<ul class="menu">
+				  <li><a href="index.html">TOP</a></li>
+				  <li><a href="story.html">STORY</a></li>
+				  <li><a href="character.html">CHARACTER</a></li>
+				  <li><a href="movies.html">MOVIES</a></li>
+				  <li><a href="more.html">MORE</a></li>
 				</ul>
-			</nav>
-		</header>
-		<h1 class="page-title">STORY</h1>
-		</div>
-		<div class="TOPPAGE">
-			<h1=>Why Do We Fall, Sir?<br><br>So That We Can Learn To Pick Ourselves Up.</h1>
-		</div>
+			  </nav>
+			</header>
+		  </section>
+
+
+		  <div class="fixed-background background5">
+			<h1>STORY</h1>
+			<p>The Tale of the Dark Knight</p>
+		  </div>
 
 <div class="background">
 		
@@ -38,6 +51,8 @@
 		</h1>
 		<div class="page wrapper">
 			<div class="box">
+
+				<p id="page-top"></i><img src="images/up.png"  width="60px" alt="topに戻る"></p>
 
 		<h2>
 			銀行強盗
@@ -330,5 +345,22 @@
 			</div>
 			<p><small>&copy; 2022 BATMAN	&copy; DC</small></p>
 		</footer>
+
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>	
+		<script src="dk/character.js">
+		</script>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+		<script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+		<!--IE11用※対応しなければ削除してください-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+		<!--自作のJS-->
+		<script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-1-2/js/4-1-2.js"></script>
+	
+		<script src="dk/loding.js">
+		</script>
+
+
 	</body>
 </html>

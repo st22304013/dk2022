@@ -164,3 +164,29 @@ footer li{
 .background4 {
 	background-image: url(../images/Twoface.jpg);
 }
+
+.background5 {
+	background-image: url(../images/sannin.png);
+	padding: 250px;
+}
+
+.background5 h1{
+    font-family: 'Montserrat', cursive;
+    font-weight: 575;
+    font-size:4vw;
+    line-height: 2.5;
+    letter-spacing: 0.5em;
+    padding-top: 100px;
+	color: #fff;
+
+}
+
+.background5 h1{
+	background-color: black;
+	opacity: 30%;
+}
+
+.background5 p{
+    font-size:1.5vw;
+    letter-spacing: 0.5em;
+}
