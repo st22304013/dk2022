@@ -179,9 +179,14 @@ body {
 }
 
 .heading_3{/*見出しのキャラクターの文字*/
-  color: honeydew;
-  font-family: "Impact";
-  padding: 100px;
+  font-family: 'Montserrat', cursive;
+  font-weight: 575;
+  font-size:4vw;
+  line-height: 2.5;
+  letter-spacing: 0.5em;
+  padding-top: 30px;
+  padding-bottom: 50px;
+color: honeydew;
 }
 
 
