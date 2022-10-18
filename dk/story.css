@@ -140,10 +140,13 @@ footer li{
     width: 2px;
     height: -webkit-calc(100% + 20px);
     height: calc(100% + 20px);
-    background-color: #c0c0c0;
+    background-color: black;
 }
+
 .box:before {left: 10px;}
+
 .box:after {right: 10px;}
+
 .box p {
     margin: 0; 
     padding: 0;
