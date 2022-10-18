@@ -140,17 +140,27 @@ footer li{
     width: 2px;
     height: -webkit-calc(100% + 20px);
     height: calc(100% + 20px);
-    background-color: #c0c0c0;
-}
-.box:before {left: 10px;}
-.box:after {right: 10px;}
-.box p {
-    margin: 0; 
-    padding: 0;
+    background-color: #6d2626;
 }
 
+.box:before {left: 10px;}
+
+.box:after {right: 10px;}
+
+.box p{
+    margin: 0; 
+    padding: 0;
+	background: rgb(0, 0, 0,0.8);
+}
+
+.box h2{
+    padding-bottom: 30px;
+	background: rgb(0, 0, 0,0.8);
+}
+
+
 .background {
-	background-image: url(../images/dk20.png);
+	background-image: url(../images/dk77.jpg);
 }
 
 .background2 {
@@ -163,4 +173,34 @@ footer li{
 
 .background4 {
 	background-image: url(../images/Twoface.jpg);
+}
+
+.background5 {
+	background-image: url(../images/sannin.png);
+	padding: 350px;
+}
+
+.background6 {
+	background-image: url(../images/dk100.jpg);
+}
+
+.bgbox{
+	background:rgba(0, 0, 0, 0.5);
+	
+}
+
+
+.background5 h1{
+    font-family: 'Montserrat', cursive;
+    font-weight: 575;
+    font-size:4vw;
+    line-height: 2.5;
+    letter-spacing: 0.5em;
+    padding-top: 30px;
+	color: white;
+}
+
+.background5 p{
+    font-size:1.5vw;
+    letter-spacing: 0.5em;
 }
