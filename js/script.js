@@ -9,9 +9,8 @@ var windowwidth = window.innerWidth || document.documentElement.clientWidth || 0
 			var responsiveImage = [//PC用の画像
 				{ src: './img/dk03.jpg'},
 				{ src: './img/dk01.png'},
-				{ src: './img/dk04.jpg'},
 				{ src: './img/dk02.jpg'},
-                { src: './img/dk05.png'}
+				{ src: './img/dk05.png'}
 			];
 		} else {
 			var responsiveImage = [//タブレットサイズ（768px）以下用の画像
